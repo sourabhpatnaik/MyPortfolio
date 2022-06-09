@@ -2384,10 +2384,14 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 60vh;
+				max-height: 80vh;
+				border-radius: 5%;
+				box-shadow: 10px 10px 15px rgb(159, 184, 210);
 			}
 
 /* List */
@@ -3002,7 +3006,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			margin: 180;
+			margin: 150;
 
 		}
 
