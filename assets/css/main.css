@@ -2388,6 +2388,10 @@ input, select, textarea {
 		}
 
 			.image.fit img {
+				width: 100%;
+				
+			}
+			.image.fit-1 img{
 				width: 60vh;
 				max-height: 80vh;
 				border-radius: 5%;
