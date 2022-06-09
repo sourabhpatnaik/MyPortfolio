@@ -2392,8 +2392,8 @@ input, select, textarea {
 				
 			}
 			.image.fit-1 img{
-				width: 60vh;
-				max-height: 80vh;
+				width: 50vh;
+				max-height: 70vh;
 				border-radius: 5%;
 				box-shadow: 10px 10px 15px rgb(159, 184, 210);
 			}
