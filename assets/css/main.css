@@ -1999,6 +1999,34 @@ input, select, textarea {
 
 /* Section/Article */
 
+#header .logo {
+	display: block;
+	border-bottom: 0;
+	color: inherit;
+	font-weight: 900;
+	letter-spacing: 0.35em;
+	margin: 0 0 2.5em 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+	#header .logo > * {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	#header .logo .symbol {
+		margin-right: 0.65em;
+	}
+
+		#header .logo .symbol img {
+			display: block;
+			width: 2em;
+			height: 2em;
+	
+		}
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -2402,6 +2430,8 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				border-radius: 5%;
+				box-shadow: 5px 5px 10px grey;
 				
 			}
 			.image.fit-1 img{
@@ -2941,6 +2971,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
+	
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
